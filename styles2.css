@@ -1,0 +1,47 @@
+/* เลือก element หลักๆ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #666;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* เลือกลิงค์ภายใน nav */
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+}
+
+/* hover effect สำหรับลิงค์ */
+nav a:hover {
+    background-color: #888;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
